@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF51D36D2179B28900EF84BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51D36C2179B28900EF84BD /* AppDelegate.m */; };
+		EF51D3702179B28900EF84BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51D36F2179B28900EF84BD /* ViewController.m */; };
+		EF51D3732179B28900EF84BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF51D3712179B28900EF84BD /* Main.storyboard */; };
+		EF51D3752179B28A00EF84BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF51D3742179B28A00EF84BD /* Assets.xcassets */; };
+		EF51D3782179B28A00EF84BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF51D3762179B28A00EF84BD /* LaunchScreen.storyboard */; };
+		EF51D37B2179B28A00EF84BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51D37A2179B28A00EF84BD /* main.m */; };
+		EF51D3852179B28A00EF84BD /* WlDevelopToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51D3842179B28A00EF84BD /* WlDevelopToolsTests.m */; };
+		EF51D3902179B28A00EF84BD /* WlDevelopToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51D38F2179B28A00EF84BD /* WlDevelopToolsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF51D3812179B28A00EF84BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF51D3602179B28900EF84BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF51D3672179B28900EF84BD;
+			remoteInfo = WlDevelopTools;
+		};
+		EF51D38C2179B28A00EF84BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF51D3602179B28900EF84BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF51D3672179B28900EF84BD;
+			remoteInfo = WlDevelopTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF51D3682179B28900EF84BD /* WlDevelopTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WlDevelopTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF51D36B2179B28900EF84BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF51D36C2179B28900EF84BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF51D36E2179B28900EF84BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF51D36F2179B28900EF84BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF51D3722179B28900EF84BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF51D3742179B28A00EF84BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF51D3772179B28A00EF84BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF51D3792179B28A00EF84BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF51D37A2179B28A00EF84BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF51D3802179B28A00EF84BD /* WlDevelopToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WlDevelopToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF51D3842179B28A00EF84BD /* WlDevelopToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WlDevelopToolsTests.m; sourceTree = "<group>"; };
+		EF51D3862179B28A00EF84BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF51D38B2179B28A00EF84BD /* WlDevelopToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WlDevelopToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF51D38F2179B28A00EF84BD /* WlDevelopToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WlDevelopToolsUITests.m; sourceTree = "<group>"; };
+		EF51D3912179B28A00EF84BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF51D3652179B28900EF84BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF51D37D2179B28A00EF84BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF51D3882179B28A00EF84BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF51D35F2179B28900EF84BD = {
+			isa = PBXGroup;
+			children = (
+				EF51D36A2179B28900EF84BD /* WlDevelopTools */,
+				EF51D3832179B28A00EF84BD /* WlDevelopToolsTests */,
+				EF51D38E2179B28A00EF84BD /* WlDevelopToolsUITests */,
+				EF51D3692179B28900EF84BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF51D3692179B28900EF84BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF51D3682179B28900EF84BD /* WlDevelopTools.app */,
+				EF51D3802179B28A00EF84BD /* WlDevelopToolsTests.xctest */,
+				EF51D38B2179B28A00EF84BD /* WlDevelopToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF51D36A2179B28900EF84BD /* WlDevelopTools */ = {
+			isa = PBXGroup;
+			children = (
+				EF51D36B2179B28900EF84BD /* AppDelegate.h */,
+				EF51D36C2179B28900EF84BD /* AppDelegate.m */,
+				EF51D36E2179B28900EF84BD /* ViewController.h */,
+				EF51D36F2179B28900EF84BD /* ViewController.m */,
+				EF51D3712179B28900EF84BD /* Main.storyboard */,
+				EF51D3742179B28A00EF84BD /* Assets.xcassets */,
+				EF51D3762179B28A00EF84BD /* LaunchScreen.storyboard */,
+				EF51D3792179B28A00EF84BD /* Info.plist */,
+				EF51D37A2179B28A00EF84BD /* main.m */,
+			);
+			path = WlDevelopTools;
+			sourceTree = "<group>";
+		};
+		EF51D3832179B28A00EF84BD /* WlDevelopToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF51D3842179B28A00EF84BD /* WlDevelopToolsTests.m */,
+				EF51D3862179B28A00EF84BD /* Info.plist */,
+			);
+			path = WlDevelopToolsTests;
+			sourceTree = "<group>";
+		};
+		EF51D38E2179B28A00EF84BD /* WlDevelopToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF51D38F2179B28A00EF84BD /* WlDevelopToolsUITests.m */,
+				EF51D3912179B28A00EF84BD /* Info.plist */,
+			);
+			path = WlDevelopToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF51D3672179B28900EF84BD /* WlDevelopTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF51D3942179B28A00EF84BD /* Build configuration list for PBXNativeTarget "WlDevelopTools" */;
+			buildPhases = (
+				EF51D3642179B28900EF84BD /* Sources */,
+				EF51D3652179B28900EF84BD /* Frameworks */,
+				EF51D3662179B28900EF84BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WlDevelopTools;
+			productName = WlDevelopTools;
+			productReference = EF51D3682179B28900EF84BD /* WlDevelopTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF51D37F2179B28A00EF84BD /* WlDevelopToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF51D3972179B28A00EF84BD /* Build configuration list for PBXNativeTarget "WlDevelopToolsTests" */;
+			buildPhases = (
+				EF51D37C2179B28A00EF84BD /* Sources */,
+				EF51D37D2179B28A00EF84BD /* Frameworks */,
+				EF51D37E2179B28A00EF84BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF51D3822179B28A00EF84BD /* PBXTargetDependency */,
+			);
+			name = WlDevelopToolsTests;
+			productName = WlDevelopToolsTests;
+			productReference = EF51D3802179B28A00EF84BD /* WlDevelopToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF51D38A2179B28A00EF84BD /* WlDevelopToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF51D39A2179B28A00EF84BD /* Build configuration list for PBXNativeTarget "WlDevelopToolsUITests" */;
+			buildPhases = (
+				EF51D3872179B28A00EF84BD /* Sources */,
+				EF51D3882179B28A00EF84BD /* Frameworks */,
+				EF51D3892179B28A00EF84BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF51D38D2179B28A00EF84BD /* PBXTargetDependency */,
+			);
+			name = WlDevelopToolsUITests;
+			productName = WlDevelopToolsUITests;
+			productReference = EF51D38B2179B28A00EF84BD /* WlDevelopToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF51D3602179B28900EF84BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王亮";
+				TargetAttributes = {
+					EF51D3672179B28900EF84BD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EF51D37F2179B28A00EF84BD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EF51D3672179B28900EF84BD;
+					};
+					EF51D38A2179B28A00EF84BD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EF51D3672179B28900EF84BD;
+					};
+				};
+			};
+			buildConfigurationList = EF51D3632179B28900EF84BD /* Build configuration list for PBXProject "WlDevelopTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF51D35F2179B28900EF84BD;
+			productRefGroup = EF51D3692179B28900EF84BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF51D3672179B28900EF84BD /* WlDevelopTools */,
+				EF51D37F2179B28A00EF84BD /* WlDevelopToolsTests */,
+				EF51D38A2179B28A00EF84BD /* WlDevelopToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF51D3662179B28900EF84BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF51D3782179B28A00EF84BD /* LaunchScreen.storyboard in Resources */,
+				EF51D3752179B28A00EF84BD /* Assets.xcassets in Resources */,
+				EF51D3732179B28900EF84BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF51D37E2179B28A00EF84BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF51D3892179B28A00EF84BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF51D3642179B28900EF84BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF51D3702179B28900EF84BD /* ViewController.m in Sources */,
+				EF51D37B2179B28A00EF84BD /* main.m in Sources */,
+				EF51D36D2179B28900EF84BD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF51D37C2179B28A00EF84BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF51D3852179B28A00EF84BD /* WlDevelopToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF51D3872179B28A00EF84BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF51D3902179B28A00EF84BD /* WlDevelopToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF51D3822179B28A00EF84BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF51D3672179B28900EF84BD /* WlDevelopTools */;
+			targetProxy = EF51D3812179B28A00EF84BD /* PBXContainerItemProxy */;
+		};
+		EF51D38D2179B28A00EF84BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF51D3672179B28900EF84BD /* WlDevelopTools */;
+			targetProxy = EF51D38C2179B28A00EF84BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF51D3712179B28900EF84BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF51D3722179B28900EF84BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF51D3762179B28A00EF84BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF51D3772179B28A00EF84BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF51D3922179B28A00EF84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF51D3932179B28A00EF84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF51D3952179B28A00EF84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WlDevelopTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangL.WlDevelopTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF51D3962179B28A00EF84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WlDevelopTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangL.WlDevelopTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF51D3982179B28A00EF84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WlDevelopToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangL.WlDevelopToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WlDevelopTools.app/WlDevelopTools";
+			};
+			name = Debug;
+		};
+		EF51D3992179B28A00EF84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WlDevelopToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangL.WlDevelopToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WlDevelopTools.app/WlDevelopTools";
+			};
+			name = Release;
+		};
+		EF51D39B2179B28A00EF84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WlDevelopToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangL.WlDevelopToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WlDevelopTools;
+			};
+			name = Debug;
+		};
+		EF51D39C2179B28A00EF84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WlDevelopToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WangL.WlDevelopToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WlDevelopTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF51D3632179B28900EF84BD /* Build configuration list for PBXProject "WlDevelopTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF51D3922179B28A00EF84BD /* Debug */,
+				EF51D3932179B28A00EF84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF51D3942179B28A00EF84BD /* Build configuration list for PBXNativeTarget "WlDevelopTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF51D3952179B28A00EF84BD /* Debug */,
+				EF51D3962179B28A00EF84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF51D3972179B28A00EF84BD /* Build configuration list for PBXNativeTarget "WlDevelopToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF51D3982179B28A00EF84BD /* Debug */,
+				EF51D3992179B28A00EF84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF51D39A2179B28A00EF84BD /* Build configuration list for PBXNativeTarget "WlDevelopToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF51D39B2179B28A00EF84BD /* Debug */,
+				EF51D39C2179B28A00EF84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF51D3602179B28900EF84BD /* Project object */;
+}
